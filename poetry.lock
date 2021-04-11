@@ -134,6 +134,34 @@ unidecode = ">=1.1"
 markdown = ["markdown (>=3.1)"]
 
 [[package]]
+name = "pelican-related-posts"
+version = "1.0.0"
+description = "Pelican plugin that adds a list of related posts to an article."
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[package.dependencies]
+pelican = ">=4.5,<5.0"
+
+[package.extras]
+markdown = ["markdown (>=3.2.2,<4.0.0)"]
+
+[[package]]
+name = "pelican-series"
+version = "2.0.0"
+description = "Series is a Pelican plugin that joins multiple posts into a series"
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[package.dependencies]
+pelican = ">=4.5,<5.0"
+
+[package.extras]
+markdown = ["markdown (>=3.2.2,<4.0.0)"]
+
+[[package]]
 name = "pygments"
 version = "2.8.1"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -226,7 +254,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "5794f4445fad5ba81b95461cd8c165e4f2b0c249e226e4f0a02e1bed69aa1589"
+content-hash = "5a7b65a5edb9c47d919a907f2d3b99561be098b4c8bacd875207e8f63205ec3d"
 
 [metadata.files]
 blinker = [
@@ -320,6 +348,14 @@ markupsafe = [
 pelican = [
     {file = "pelican-4.6.0-py3-none-any.whl", hash = "sha256:7ffedec818fb1bc80fc3735782859858052479a99fc083546d9947c1adfe8156"},
     {file = "pelican-4.6.0.tar.gz", hash = "sha256:bff507e454b62b7157001031edca259a40c72225778f6ea8221c201915e41f24"},
+]
+pelican-related-posts = [
+    {file = "pelican-related-posts-1.0.0.tar.gz", hash = "sha256:e106487e279368ccc7ab74609197a5f298d54f6d4e1eeb36f8bc0c2291227222"},
+    {file = "pelican_related_posts-1.0.0-py3-none-any.whl", hash = "sha256:0f1dcdf34f90c41f275aba428879a5fde24e166cf0154d3a07d59cc5071976d5"},
+]
+pelican-series = [
+    {file = "pelican-series-2.0.0.tar.gz", hash = "sha256:a73f0730587a460c3480848c774f7ea01bd4cb71f611e38d830e16119963690f"},
+    {file = "pelican_series-2.0.0-py3-none-any.whl", hash = "sha256:91daeba30d51742955aecd0fba00f3d2bc6b107810fd852b263a361d5e2f9d8b"},
 ]
 pygments = [
     {file = "Pygments-2.8.1-py3-none-any.whl", hash = "sha256:534ef71d539ae97d4c3a4cf7d6f110f214b0e687e92f9cb9d2a3b0d3101289c8"},

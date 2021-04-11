@@ -12,6 +12,8 @@ typogrify = "^2.0.7"
 invoke = "^1.5.0"
 livereload = "^2.6.3"
 ghp-import = "^1.1.0"
+pelican-related-posts = "^1.0.0"
+pelican-series = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 
